@@ -10,7 +10,7 @@ function Calculator() {
         <span className="grey">7</span>
         <span className="grey">8</span>
         <span className="grey">9</span>
-        <span className="orange">*</span>
+        <span className="orange">x</span>
         <span className="grey">4</span>
         <span className="grey">5</span>
         <span className="grey">6</span>
