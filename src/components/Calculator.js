@@ -1,35 +1,45 @@
+import React, { useState } from 'react';
+import calculate from '../logic/calculator';
+
 function Calculator() {
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const handleClick = (btnName) => {
+    const result = calculate(state, btnName);
+    setState(result);
+  };
+
   return (
     <section id="calculator">
       <div className="operators">
-        <Display />
-        <span className="grey">AC</span>
-        <span className="grey">+/-</span>
-        <span className="grey">%</span>
-        <span className="orange">/</span>
-        <span className="grey">7</span>
-        <span className="grey">8</span>
-        <span className="grey">9</span>
-        <span className="orange">x</span>
-        <span className="grey">4</span>
-        <span className="grey">5</span>
-        <span className="grey">6</span>
-        <span className="orange">-</span>
-        <span className="grey">1</span>
-        <span className="grey">2</span>
-        <span className="grey">3</span>
-        <span className="orange">+</span>
-        <span className="grey zero">0</span>
-        <span className="grey">.</span>
-        <span className="orange">=</span>
+        <span className="display">
+          {`${state.total || ''}${state.operation || ''}${state.next || ''}` || '0'}
+        </span>
+        <button type="button" className="grey" onClick={() => handleClick('AC')}>AC</button>
+        <button type="button" className="grey" onClick={() => handleClick('+/-')}>+/-</button>
+        <button type="button" className="grey" onClick={() => handleClick('%')}>%</button>
+        <button type="button" className="orange" onClick={() => handleClick('÷')}>÷</button>
+        <button type="button" className="grey" onClick={() => handleClick('7')}>7</button>
+        <button type="button" className="grey" onClick={() => handleClick('8')}>8</button>
+        <button type="button" className="grey" onClick={() => handleClick('9')}>9</button>
+        <button type="button" className="orange" onClick={() => handleClick('x')}>x</button>
+        <button type="button" className="grey" onClick={() => handleClick('4')}>4</button>
+        <button type="button" className="grey" onClick={() => handleClick('5')}>5</button>
+        <button type="button" className="grey" onClick={() => handleClick('6')}>6</button>
+        <button type="button" className="orange" onClick={() => handleClick('-')}>-</button>
+        <button type="button" className="grey" onClick={() => handleClick('1')}>1</button>
+        <button type="button" className="grey" onClick={() => handleClick('2')}>2</button>
+        <button type="button" className="grey" onClick={() => handleClick('3')}>3</button>
+        <button type="button" className="orange" onClick={() => handleClick('+')}>+</button>
+        <button type="button" className="grey zero" onClick={() => handleClick('0')}>0</button>
+        <button type="button" className="grey" onClick={() => handleClick('.')}>.</button>
+        <button type="button" className="orange" onClick={() => handleClick('=')}>=</button>
       </div>
     </section>
-  );
-}
-
-function Display() {
-  return (
-    <span className="display">0</span>
   );
 }
 
