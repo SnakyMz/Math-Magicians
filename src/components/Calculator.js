@@ -17,7 +17,7 @@ function Calculator() {
     <section id="calculator">
       <div className="operators">
         <span className="display">
-          {`${state.total || ''}${state.operation || ''}${state.next || ''}`}
+          {`${state.total || ''}${state.operation || ''}${state.next || ''}` || '0'}
         </span>
         <button type="button" className="grey" onClick={() => handleClick('AC')}>AC</button>
         <button type="button" className="grey" onClick={() => handleClick('+/-')}>+/-</button>

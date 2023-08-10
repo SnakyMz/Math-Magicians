@@ -23,12 +23,13 @@ body {
   grid-template-rows: 1.1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.operators span {
+.operators button {
   padding: 1rem 0;
   border: 0.01rem solid silver;
 }
 
 .display {
+  padding: 1rem 0;
   font-size: 1.4rem;
   background-color: grey;
   color: white;
@@ -40,8 +41,16 @@ body {
   background-color: lightgrey;
 }
 
+.grey:hover {
+  background-color: darkgrey;
+}
+
 .orange {
   background-color: darkorange;
+}
+
+.orange:hover {
+  background-color: peru;
 }
 
 .zero {
