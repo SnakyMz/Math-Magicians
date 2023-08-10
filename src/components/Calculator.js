@@ -2,7 +2,7 @@ function Calculator() {
   return (
     <section id="calculator">
       <div className="operators">
-        <span className="display">0</span>
+        <Display />
         <span className="grey">AC</span>
         <span className="grey">+/-</span>
         <span className="grey">%</span>
@@ -24,6 +24,12 @@ function Calculator() {
         <span className="orange">=</span>
       </div>
     </section>
+  );
+}
+
+function Display() {
+  return (
+    <span className="display">0</span>
   );
 }
 
