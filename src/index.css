@@ -27,3 +27,43 @@ code {
     'Courier New',
     monospace;
 }
+
+#calculator {
+  width: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.operators span {
+  padding: 1rem 0;
+  border: 0.01rem solid silver;
+}
+
+.display {
+  background-color: grey;
+  color: white;
+  grid-column: span 4;
+  text-align: right;
+}
+
+.grey {
+  background-color: lightgrey;
+}
+
+.orange {
+  background-color: darkorange;
+}
+
+.zero {
+  grid-column: span 2;
+}
