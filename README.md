@@ -31,7 +31,7 @@
 
 # 📖 About the Project <a name="about-project"></a>
 
-**Math Magicians** is a website to perform some mathematic operations.
+**Math Magicians** is a website that contains a calculator to perform basic mathematic operations and displays a random quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,13 +43,14 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/javascript">JavaScript</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
 - **Perform mathematic operations**
-- **Display results**
+- **Display a random quote**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

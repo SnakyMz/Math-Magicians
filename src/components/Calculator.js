@@ -15,6 +15,7 @@ function Calculator() {
 
   return (
     <section id="calculator">
+      <h2>Let&apos;s do some math</h2>
       <div className="operators">
         <span className="display">
           {`${state.total || ''}${state.operation || ''}${state.next || ''}` || '0'}
