@@ -1,10 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&display=swap');
+
 body {
   margin: 0;
-  padding: 10%;
+  padding: 0 10%;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./images/Math-background.jpg);
+  background-color: antiquewhite;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 1.2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 0.5rem;
+  padding: 0;
+  font-weight: 900;
+}
+
+nav span {
+  font-size: 2rem;
+}
+
+.navitem {
+  text-decoration: none;
+  color: black;
+}
+
+.navitem:hover {
+  color: grey;
 }
 
 #calculator {
@@ -21,28 +56,29 @@ body {
 
 .operators button {
   padding: 1rem 0;
-  border: 0.01rem solid silver;
+  border: 0.01rem solid white;
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 1.2rem;
 }
 
 .display {
   padding: 1rem 0;
   font-size: 1.4rem;
-  background-color: grey;
-  color: white;
+  background-color: bisque;
   grid-column: span 4;
   text-align: right;
 }
 
 .grey {
-  background-color: lightgrey;
+  background-color: khaki;
 }
 
 .grey:hover {
-  background-color: darkgrey;
+  background-color: darkkhaki;
 }
 
 .orange {
-  background-color: darkorange;
+  background-color: sandybrown;
 }
 
 .orange:hover {
@@ -61,16 +97,35 @@ body {
 
 .quote {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    padding: 3% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   h1 {
     font-size: 4rem;
+    margin: 0;
+  }
+
+  .navitem {
+    font-size: 1.5rem;
   }
 
   #home {
     font-size: 2rem;
+  }
+
+  #calculator {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
   }
 
   .quote {
