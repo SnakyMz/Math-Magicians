@@ -1,4 +1,5 @@
-import operate from "../logic/operate";
+import operate from '../logic/operate';
+
 describe('Testing calculation operations', () => {
   test('Should add two numbers', () => {
     const cal = operate('2', '5', '+');

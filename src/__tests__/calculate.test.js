@@ -1,4 +1,5 @@
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
+
 describe('Testing calculation inputs', () => {
   test('Should nullify the operation', () => {
     const obj = {
@@ -12,7 +13,7 @@ describe('Testing calculation inputs', () => {
         total: null,
         next: null,
         operation: null,
-      }
+      },
     );
   });
   test('Should return addition operation', () => {

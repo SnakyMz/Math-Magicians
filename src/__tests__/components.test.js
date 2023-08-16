@@ -11,23 +11,23 @@ describe('Testing Rendering', () => {
     const nav = render(
       <BrowserRouter>
         <Navbar />
-      </BrowserRouter>
-    )
+      </BrowserRouter>,
+    );
     expect(nav).toMatchSnapshot();
   });
 
   it('Should render Home page', () => {
-    const home = render(<Home />)
+    const home = render(<Home />);
     expect(home).toMatchSnapshot();
   });
 
   it('Should render Calculator page', () => {
-    const calcy = render(<Calculator />)
+    const calcy = render(<Calculator />);
     expect(calcy).toMatchSnapshot();
   });
 
   it('Should render Quotes page', () => {
-    const quot = render(<Quotes />)
+    const quot = render(<Quotes />);
     expect(quot).toMatchSnapshot();
   });
 });
