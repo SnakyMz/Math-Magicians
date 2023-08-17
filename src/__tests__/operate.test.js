@@ -13,4 +13,12 @@ describe('Testing calculation operations', () => {
     const cal = operate('2', '5', 'x');
     expect(cal).toEqual('10');
   });
+  test('Should divide two numbers', () => {
+    const cal = operate('10', '5', '÷');
+    expect(cal).toEqual('2');
+  });
+  test('Should modulo two numbers', () => {
+    const cal = operate('10', '3', '%');
+    expect(cal).toEqual('1');
+  });
 });
