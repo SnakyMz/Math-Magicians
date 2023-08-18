@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import calculate from '../logic/calculator';
+import calculate from '../logic/calculate';
 
 function Calculator() {
   const [state, setState] = useState({

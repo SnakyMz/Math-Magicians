@@ -1,0 +1,637 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Rendering Should render Calculator page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        id="calculator"
+      >
+        <h2>
+          Let's do some math
+        </h2>
+        <div
+          class="operators"
+        >
+          <span
+            class="display"
+          >
+            0
+          </span>
+          <button
+            class="grey"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="orange"
+            type="button"
+          >
+            ÷
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="orange"
+            type="button"
+          >
+            x
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="orange"
+            type="button"
+          >
+            -
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="orange"
+            type="button"
+          >
+            +
+          </button>
+          <button
+            class="grey zero"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="grey"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="orange"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      id="calculator"
+    >
+      <h2>
+        Let's do some math
+      </h2>
+      <div
+        class="operators"
+      >
+        <span
+          class="display"
+        >
+          0
+        </span>
+        <button
+          class="grey"
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="orange"
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="orange"
+          type="button"
+        >
+          x
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="orange"
+          type="button"
+        >
+          -
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="orange"
+          type="button"
+        >
+          +
+        </button>
+        <button
+          class="grey zero"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="grey"
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="orange"
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Rendering Should render Home page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        id="home"
+      >
+        <h2>
+          Welcome to our page
+        </h2>
+        <p>
+          This webpage contains a calculator that perfomrs basic calculations.
+          <br />
+          You can perform addition, subtraction, multiplication, division, and percentage operations.
+          <br />
+          The "AC" button resets the calculations to zero.
+          <br />
+          This webpage also contains a quote section.
+          <br />
+          The Quote section generates a random quote on load.
+        </p>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      id="home"
+    >
+      <h2>
+        Welcome to our page
+      </h2>
+      <p>
+        This webpage contains a calculator that perfomrs basic calculations.
+        <br />
+        You can perform addition, subtraction, multiplication, division, and percentage operations.
+        <br />
+        The "AC" button resets the calculations to zero.
+        <br />
+        This webpage also contains a quote section.
+        <br />
+        The Quote section generates a random quote on load.
+      </p>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Rendering Should render Navbar 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header>
+        <h1>
+          Math Magicians
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <a
+                class="navitem"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <span>
+              |
+            </span>
+            <li>
+              <a
+                class="navitem"
+                href="/Calculator"
+              >
+                Calculator
+              </a>
+            </li>
+            <span>
+              |
+            </span>
+            <li>
+              <a
+                class="navitem"
+                href="/Quotes"
+              >
+                Quotes
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header>
+      <h1>
+        Math Magicians
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a
+              class="navitem"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <span>
+            |
+          </span>
+          <li>
+            <a
+              class="navitem"
+              href="/Calculator"
+            >
+              Calculator
+            </a>
+          </li>
+          <span>
+            |
+          </span>
+          <li>
+            <a
+              class="navitem"
+              href="/Quotes"
+            >
+              Quotes
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Rendering Should render Quotes page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        id="loading"
+      >
+        Loading...
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      id="loading"
+    >
+      Loading...
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
